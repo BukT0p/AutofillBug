@@ -18,9 +18,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_sign_in_email_parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:importantForAutofill="no"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -30,18 +32,34 @@
             android:layout_height="wrap_content"
             android:hint="TextInputField"
             android:inputType="textEmailAddress"
-            android:maxLength="100"
             android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
 
     <EditText
+        android:id="@+id/simple_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="16dp"
         android:hint="simple EditText"
+        android:importantForAutofill="no"
         android:inputType="text"
-        android:maxLength="100"
         android:singleLine="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/login_sign_in_email_parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/simple_edittext">
+
+        <com.vyakunin.TextInputEditTextNoAutofill
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TextInputField No Autofill"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
 </android.support.constraint.ConstraintLayout>
