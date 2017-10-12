@@ -19,8 +19,8 @@ at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)</br>
 </code>
 </p>
 
-Linked bugs:
-https://issuetracker.google.com/issues/62834931
-https://issuetracker.google.com/issues/67675432
-
-https://stackoverflow.com/questions/45731372/disabling-android-o-auto-fill-service-for-an-application
+Linked bugs:</br>
+https://issuetracker.google.com/issues/62834931</br>
+https://issuetracker.google.com/issues/67675432</br>
+</br>
+https://stackoverflow.com/questions/45731372/disabling-android-o-auto-fill-service-for-an-application</br>
