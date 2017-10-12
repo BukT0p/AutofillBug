@@ -18,3 +18,9 @@ at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)</br>
 at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)</br>
 </code>
 </p>
+
+Linked bugs:
+https://issuetracker.google.com/issues/62834931
+https://issuetracker.google.com/issues/67675432
+
+https://stackoverflow.com/questions/45731372/disabling-android-o-auto-fill-service-for-an-application
