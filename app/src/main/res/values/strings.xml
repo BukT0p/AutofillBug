@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KotlinTests</string>
+    <string name="problem_desc"><![CDATA[Enable autofill -> long press on each input field to trigger \'autofill\' popup -> select autofill -> fails on TextInputEditText]]></string>
 </resources>
